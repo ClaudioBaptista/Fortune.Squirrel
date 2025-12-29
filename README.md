@@ -1,16 +1,32 @@
-# React + Vite
+# 🐿️ Fortune Squirrel | Premium Slot Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Fortune Squirrel** é um jogo de slot de alta fidelidade inspirado nos grandes sucessos do mercado de iGaming (estilo PG Soft / Fortune Tiger). Desenvolvido com foco total em **Mobile First**, performance e experiência visual imersiva.
 
-Currently, two official plugins are available:
+🔗 **Jogue Agora:** [Link do jogo na Vercel se tiver]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Destaques do Projeto
+Este não é apenas um site, é uma aplicação complexa de engenharia de software que simula um cassino real:
 
-## React Compiler
+### 🧠 Engenharia & Lógica
+- **Motor Matemático:** Simulação de RNG (Random Number Generation) com pesos de probabilidade ajustáveis.
+- **Mecânica "Respin" (Sticky Wilds):** Implementação da regra onde a coluna central "trava" se preenchida com Wilds, garantindo giros nas laterais até a vitória.
+- **Gestão de Estado Complexa:** Controle de saldo, aposta variável, modos Turbo e Auto Spin.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🎨 UI/UX & Visual (Frontend)
+- **Design Responsivo:** Focado na experiência mobile vertical.
+- **Animações Avançadas:** Uso de `Framer Motion` para giros, impactos e transições.
+- **Partículas & Efeitos:** Integração com `Canvas Confetti` e sistemas de partículas para "Big Wins".
+- **Estilo Visual:** Paleta de cores "Imperial" (Vermelho/Dourado) e tipografia estilo Cartoon 3D.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- **Core:** React.js, Vite.
+- **Estilização:** Tailwind CSS (com configuração de tema estendida).
+- **Animação:** Framer Motion, Lucide React (Ícones).
+- **Utilitários:** Canvas Confetti.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Funcionalidades Implementadas
+1. **Controle de Aposta:** Menu "Drawer" deslizante para seleção de valores.
+2. **Modo Turbo:** Acelera o tempo de giro e animações.
+3. **Modo Automático:** Loop de giros com verificação de saldo.
+4. **Animação "Wild Drop":** O personagem interage com o grid jogando símbolos Wild.
+5. **Tela Big Win:** Contagem progressiva de ganhos altos.
